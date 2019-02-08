@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <% include nav/header.ejs %>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <p>Name : <%= name %>는 쀍 </p>
+    <p>Money: <%= money %> asafase</p>
+    <p>Jdata: <%= jdata.workers %> asafase</p>
+    <ul>
+      <% for (var i = 0; i<5; i++){ %>
+        <li>rire</li>
+      <% } %>
+    </ul>
+    <ul>
+      <% jdata.employees.forEach(function(item){ %>
+        <li><%= item.firstName %></li>
+      <% }); %>
+    </ul>
+  </body>
+</html>

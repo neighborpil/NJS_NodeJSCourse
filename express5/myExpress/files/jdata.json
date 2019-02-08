@@ -1,0 +1,17 @@
+{
+    "workers": "out workers",
+    "employees": [
+        {
+            "firstName": "John",
+            "lastName": "Doe"
+        },
+        {
+            "firstName": "John1",
+            "lastName": "Doe2"
+        },
+        {
+            "firstName": "John2",
+            "lastName": "Doe3"
+        }
+    ]
+}
